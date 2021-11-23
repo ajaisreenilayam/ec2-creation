@@ -1,0 +1,7 @@
+resource "aws_key_pair" "my_key_create" {
+  key_name   = var.key_name
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAisU5oUHbk1xY627JBN9nBouz0X/b972aJ0v20QHp7ygaKiWwCb0aT5+rwheiwj3NVuTL0/NMQg7Bioyf3B5iTMV1hjmBq8cN8IlKTT6WrFjDWJ4/Okvj/EaDHOnAnzSmc19J/n963sCHogmkbwqYeLyFPt8c8wTJJuudyg3yVB7ItQ2ynNuvCkYYtdDuZJieCiT/LcmkEvdSD7n8Bh+K75Y0732VheNUopunpciqBsXhNqV9U5u2N5mTBhv4TWK9G0dNuppSjT8XvTaFIojFWj45GVgzc7PWSpZFVT3gNqp+pG5JMVBn+KMxZblisTJebe+qw3npQcs3YhsUvcFStw== prasu@example.com"
+}
+
+
+
